@@ -24,6 +24,17 @@
   color: var(--lightgrey);
   font-size: .85rem;
   font-weight: 700;
+  transition: .1s ease-in-out;
+}
+
+.rating:hover {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.rating.active {
+  background-color: var(--mediumgrey);
+  color: var(--white);
 }
 
 #submit {
@@ -41,4 +52,15 @@
   font-weight: 700;
   color: var(--white);
   letter-spacing: .15rem;
+  transition: .1s ease-in-out;
+}
+
+#submit:hover {
+  background-color: var(--white);
+  color: var(--orange);
+}
+
+#submit.active {
+  background-color: var(--white);
+  color: var(--orange);
 }

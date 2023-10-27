@@ -26,6 +26,7 @@ body {
 }
 
 #rating-state, #thank-you-state {
+  width: 280px;
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(160deg, rgb(37, 45, 55, 0.9), rgb(37, 45, 55, 0.2));
