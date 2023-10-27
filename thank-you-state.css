@@ -7,9 +7,13 @@
 }
 
 #selected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--darkblue);
-  padding: .5rem .7rem;
+  padding: .55rem .8rem .5rem;
   border-radius: 1.5rem;
   color: var(--orange);
   font-size: .85rem;
+  letter-spacing: .02rem;
 }
