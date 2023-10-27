@@ -1,0 +1,13 @@
+#thank-you-state {
+  align-items: center;
+}
+
+#thank-you-state img {
+  margin-bottom: 1.5rem;
+}
+
+#selected {
+  background-color: var(--darkblue);
+  padding: .5rem .7rem;
+  border-radius: 1.5rem;
+}

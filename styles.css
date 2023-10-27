@@ -1,0 +1,35 @@
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --lightgrey: hsl(217, 12%, 63%);
+  --mediumgrey: hsl(216, 12%, 54%);
+  --darkblue: hsl(213, 19%, 18%);
+  --verydarkblue: hwb(216 7% 91%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--verydarkblue);
+  font-family: 'Overpass', sans-serif;
+}
+
+#wrapper {
+  width: 100vw;
+  background-color: var(--verydarkblue);
+  display: flex;
+  flex-direction: column; /* remove later? */
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; /* remove later */
+}
+
+#rating-state, #thank-you-state {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(160deg, rgb(37, 45, 55, 0.9), rgb(37, 45, 55, 0.2));
+  padding: 1.5rem 1.7rem 2.7rem;
+  margin: 0 1.5rem; /* change later */
+  border-radius: 1rem;
+}
