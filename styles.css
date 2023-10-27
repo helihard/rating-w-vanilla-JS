@@ -19,18 +19,16 @@ body {
   width: 100vw;
   background-color: var(--verydarkblue);
   display: flex;
-  flex-direction: column; /* remove later? */
   justify-content: center;
   align-items: center;
-  gap: 1rem; /* remove later */
 }
 
 #rating-state, #thank-you-state {
-  width: 280px;
+  max-width: 300px; /* check later */
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(160deg, rgb(37, 45, 55, 0.9), rgb(37, 45, 55, 0.2));
   padding: 1.5rem 1.7rem 2rem;
-  margin: 0 1.5rem; /* change later */
+  margin: 10rem 1.5rem 0; /* check later */
   border-radius: 1rem;
 }
