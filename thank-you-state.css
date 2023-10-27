@@ -10,4 +10,6 @@
   background-color: var(--darkblue);
   padding: .5rem .7rem;
   border-radius: 1.5rem;
+  color: var(--orange);
+  font-size: .85rem;
 }
