@@ -3,7 +3,12 @@
 }
 
 #thank-you-state img {
-  margin-bottom: 1.5rem;
+  margin: 1.1rem 0 1.8rem;
+}
+
+#thank-you-state p {
+  margin-right: .3rem;
+  margin-bottom: .6rem;
 }
 
 #selected {
@@ -11,9 +16,9 @@
   justify-content: center;
   align-items: center;
   background-color: var(--darkblue);
-  padding: .55rem .8rem .5rem;
+  padding: .55rem .8rem .7rem;
   border-radius: 1.5rem;
   color: var(--orange);
-  font-size: .85rem;
+  font-size: 13px;
   letter-spacing: .02rem;
 }

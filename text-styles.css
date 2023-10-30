@@ -1,5 +1,5 @@
 h1 {
-  margin: 1.2rem 0 .8rem;
+  margin: 1.7rem 0 .8rem;
   color: var(--white);
   font-size: 1.47rem;
   font-weight: 700;
@@ -8,12 +8,14 @@ h1 {
 p {
   margin: 0;
   color: var(--lightgrey);
-  font-size: .85rem;
+  font-size: 13px;
   line-height: 1.5;
 }
 
 .attribution { 
+  font-family: 'Overpass', sans-serif;
   font-size: 11px; 
+  color: var(--white);
   text-align: center; 
 }
 
