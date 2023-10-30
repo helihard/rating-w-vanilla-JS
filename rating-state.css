@@ -57,7 +57,7 @@
   cursor: pointer;
 }
 
-#submit:hover {
+#submit.hover {
   background-color: var(--white);
   color: var(--orange);
 }

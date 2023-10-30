@@ -12,10 +12,11 @@ rating.forEach((rate, index1) => {
     myRate = index1 + 1;
     rate.classList.add("active");
 
-    rating.forEach((rate, index2) => {
-      if (index1 != index2) {
-        rate.classList.remove("active");
-      }
+    submit.addEventListener("mouseover", () => {
+      submit.classList.add("hover");
+    });
+    submit.addEventListener("mouseout", () => {
+      submit.classList.remove("hover");
     });
     submit.addEventListener("click", () => {
       submit.classList.add("active");
@@ -23,5 +24,11 @@ rating.forEach((rate, index1) => {
       thankYouState.style.display = "flex";
       selected.innerText = ("You selected " + myRate + " out of 5");
     });
-  })
+
+    rating.forEach((rate, index2) => {
+      if (index1 != index2) {
+        rate.classList.remove("active");
+      }
+    });
+  });
 });
