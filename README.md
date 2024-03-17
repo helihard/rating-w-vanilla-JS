@@ -1,21 +1,22 @@
 # Frontend Mentor - Interactive rating component solution
 
-## Overview
-My first project using JavaScript. Especially considering that I am only two weeks in the first JS course in my training, I am pleased with how this turned out. 
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+## Overview
+
+My first project using JavaScript. Especially considering that I am only two weeks in the first JS course in my training, I am pleased with how this turned out.
 
 ### Screenshot
 
 In repo.
-
 
 ### Links
 
 - Solution URL: https://github.com/helihard/FMChallenge-interactive-rating-component
 - Live Site URL: https://helihard.github.io/FMChallenge-interactive-rating-component/
 
-
 ## My process
+
 - Reading up on JS for rating components
 - Planning
 - Basic structure (HTML)
@@ -28,7 +29,6 @@ In repo.
 - Cleaning up JS file and finding better solutions for active states
 - Finishing touches all over
 
-
 ### Built with
 
 - CSS custom properties
@@ -36,21 +36,17 @@ In repo.
 - Mobile-first workflow
 - JavaScript
 
-
 ### What I learned
 
 A lot about JavaScript, much of it by feeling my way through the code and trying ideas out.
 
-
 ### Continued development
 
-Focusing on JS, while keeping up the HTML and CSS skills I have. 
-
+Focusing on JS, while keeping up the HTML and CSS skills I have.
 
 ### Useful resources
 
 I started with this tutorial for star rating: https://dev.to/leonardoschmittk/how-to-make-a-star-rating-with-js-36d3 and worked my way from there.
-
 
 ## Acknowledgments
 
